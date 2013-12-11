@@ -20,11 +20,13 @@ ChuchuBlog::App.controllers :posts do
   # end
   
   get :index do
-
+    @posts = Post.all
+    render 'posts/index'
   end
 
   get :show do
-
+    @post = Post.find_by_id(params[:id])
+    render 'posts/show'
   end
 
 end
