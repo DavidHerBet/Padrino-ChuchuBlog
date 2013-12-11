@@ -15,6 +15,7 @@ ruby '2.0.0'
 gem 'rake'
 
 # Component requirements
+gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'sass'
 gem 'haml'
 gem 'dm-validations'
