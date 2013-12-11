@@ -7,6 +7,16 @@ module ChuchuBlog
 
     enable :sessions
 
+    # Clásico Hola Mundo!
+    get "/" do
+      "Hola Mundo!"
+    end
+
+    # Acerca de nosotros
+    get :about, :map => '/about_us' do
+      render :haml, "%p Esto es un blog de ejemplo para demostrar como trabaj Padrino!"
+    end
+
     ##
     # Caching support.
     #
