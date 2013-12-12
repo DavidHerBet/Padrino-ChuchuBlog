@@ -3,6 +3,7 @@ migration 3, :add_account_to_post do
     modify_table :posts do
       add_column :account_id, Integer
     end
+
   end
 
   down do
