@@ -27,5 +27,12 @@ Blog de ejemplo empleando el tutorial de Padrino para familiarizarme con la form
 
         http://localhost:3000/
 
+##Deployment en Heroku
+1. Abre el navegador y accede a [Chuchu Blog en Heroku](http://david-herbet-chuchublog.herokuapp.com):
+
+        http://david-herbet-chuchublog.herokuapp.com
+
+2. Disfruta del Chuchu Blog
+
 ##Autor
 David Hernández Bethencourt
