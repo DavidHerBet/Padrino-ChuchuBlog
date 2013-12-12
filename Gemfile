@@ -30,10 +30,10 @@ gem 'dm-core'
 gem 'padrino', '0.11.4'
 
 # Desarrollo
-group :develepment do
-  gem 'sqlite3'
-  gem 'dm-sqlite-adapter'
-end
+#group :develepment do
+#  gem 'sqlite3'
+#  gem 'dm-sqlite-adapter'
+#end
 
 # Test requirements
 group :test do
