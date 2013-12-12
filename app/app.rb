@@ -7,14 +7,19 @@ module ChuchuBlog
 
     enable :sessions
 
+    # Página inicial
+    get :index do
+      render 'layouts/index'
+    end
+
     # Clásico Hola Mundo!
-    get "/" do
+    get :holamundo do
       "Hola Mundo!"
     end
 
-    # Acerca de nosotros
-    get :about, :map => '/about_us' do
-      render :haml, "%p Esto es un blog de ejemplo para demostrar como trabaj Padrino!"
+    # Acerca de mapeando con map y haml insline
+    get :about, :map => '/about' do
+      render :haml, "%p Esto es un blog de ejemplo para demostrar como trabaja Padrino!"
     end
 
     ##
