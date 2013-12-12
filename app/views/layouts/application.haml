@@ -1,0 +1,15 @@
+!!!
+%html(lang="es")
+%head
+  %title 
+    Chuchu Blog
+    = if content_for? :title
+      = yield_content :title
+  %meta(charset="utf-8")
+%body
+  %header
+    = partial 'layouts/nav'
+  %section
+    = yield
+  %footer
+    = partial 'layouts/footer'
