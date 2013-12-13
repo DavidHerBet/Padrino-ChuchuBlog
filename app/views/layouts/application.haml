@@ -6,8 +6,9 @@
     = if content_for? :title
       = yield_content :title
   %meta(charset="utf-8")
+  = stylesheet_link_tag 'application'
 %body
-  %header
+  .nav
     = partial 'layouts/nav'
   %section
     = yield
