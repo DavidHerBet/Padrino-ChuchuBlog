@@ -1,0 +1,27 @@
+body {
+  background-color: #e6e0d9;
+  font-family: "Helvetica Neue", Arial;
+  font-size: 18px; }
+
+.nav {
+  height: 50px;
+  background-color: orange;
+  text-align: center; }
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px; }
+    .nav ul li {
+      margin: 10px;
+      display: inline; }
+
+section {
+  text-align: center; }
+
+footer {
+  text-align: center;
+  background-color: #81f79f;
+  margin-top: 10px; }
+  footer p {
+    margin: 0;
+    padding: 10px; }
