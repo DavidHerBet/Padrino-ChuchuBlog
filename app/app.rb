@@ -6,6 +6,7 @@ module ChuchuBlog
     register Padrino::Helpers
 
     enable :sessions
+    disable :asset_stamp
 
     # Página inicial
     get :index do
@@ -20,6 +21,11 @@ module ChuchuBlog
     # Acerca de mapeando con map y haml insline
     get :about, :map => '/about' do
       render :haml, "%p Esto es un blog de ejemplo para demostrar como trabaja Padrino!"
+    end
+
+    # Código fuente del microblog
+    get :source do
+      render 'layouts/source'
     end
 
     ##
